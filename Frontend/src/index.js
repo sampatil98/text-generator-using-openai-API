@@ -9,7 +9,7 @@ document.getElementById('fetchData').addEventListener('click', function() {
         langauge:language
       }
       loading.innerText="please wait.... I am generating data it takes some time... 🔃 "
-    const apiUrl = `http://localhost:8080/getdata`;
+    const apiUrl = `https://have-fun.cyclic.app/getdata`;
 
     fetch(apiUrl,{
         method:"POST",
