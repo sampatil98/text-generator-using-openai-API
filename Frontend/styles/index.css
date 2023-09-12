@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar{
+    background-color: rgb(53, 52, 52);
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: orange;
+}
+.container{
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+select,input{
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(67, 180, 67);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(26, 93, 26);
+    color: aliceblue;
+}
+#output{
+    width: 60%;
+    /* height: 400px; */
+    background-color: rgba(189, 255, 182, 0.427);
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+}
+#msg{
+    text-align: center;
+    margin-top: 20px;
+}
+#copy{
+    margin-top: 20px;
+}
+#copyFeedback{
+    width: fit-content;
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+#heading h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#creater {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 55px;
+}
